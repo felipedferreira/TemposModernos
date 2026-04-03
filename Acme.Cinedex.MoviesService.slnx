@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="compose.yaml" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/" />
+  <Folder Name="/src/1 Presentation/">
+    <Project Path="src\Presentation\Acme.Cinedex.MoviesService.WebService\Acme.Cinedex.MoviesService.WebService.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/src/2 Logic/">
+    <Project Path="src\Shared\Acme.Cinedex.MoviesService.Application.Abstractions\Acme.Cinedex.MoviesService.Application.Abstractions.csproj" Type="Classic C#" />
+    <Project Path="src\Shared\Acme.Cinedex.MoviesService.Application\Acme.Cinedex.MoviesService.Application.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/src/3 Adapters/">
+    <Project Path="src\Adapters\Acme.Cinedex.MoviesService.Persistence\Acme.Cinedex.MoviesService.Persistence.csproj" Type="Classic C#" />
+  </Folder>
+  <Folder Name="/src/4 Core/">
+    <Project Path="src\Shared\Acme.Cinedex.MoviesService.Domain\Acme.Cinedex.MoviesService.Domain.csproj" Type="Classic C#" />
+  </Folder>
+</Solution>

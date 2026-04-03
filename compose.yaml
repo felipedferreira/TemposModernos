@@ -1,0 +1,7 @@
+﻿services:
+  acme.cinedex.moviesservice.webservice:
+    image: acme.cinedex.moviesservice.webservice
+    build:
+      context: .
+      dockerfile: src/Presentation/Acme.Cinedex.MoviesService.WebService/Dockerfile
+

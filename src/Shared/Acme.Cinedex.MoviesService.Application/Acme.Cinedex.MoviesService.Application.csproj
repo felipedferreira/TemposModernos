@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Adapters\Acme.Cinedex.MoviesService.Persistence\Acme.Cinedex.MoviesService.Persistence.csproj" />
+      <ProjectReference Include="..\Acme.Cinedex.MoviesService.Application.Abstractions\Acme.Cinedex.MoviesService.Application.Abstractions.csproj" />
+    </ItemGroup>
+
+</Project>

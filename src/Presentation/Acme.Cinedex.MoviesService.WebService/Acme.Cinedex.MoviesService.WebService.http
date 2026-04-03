@@ -1,0 +1,6 @@
+@Acme.Cinedex.MoviesService.WebService_HostAddress = http://localhost:5057
+
+GET {{Acme.Cinedex.MoviesService.WebService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

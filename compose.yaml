@@ -4,4 +4,6 @@
     build:
       context: .
       dockerfile: src/Presentation/Acme.Cinedex.MoviesService.WebService/Dockerfile
+    ports:
+      - "9000:8080"
 
